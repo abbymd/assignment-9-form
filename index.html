@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Basic Bootstrap File</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-6">
+		<h1>Live From New York, It's Saturday Night!</h1>
+		<p><a href="https://en.wikipedia.org/wiki/Saturday_Night_Live">Saturday Night Live</a> (or SNL, as it is commonly known) is an American late-night comedy sketch and variety show.  It is filmed and broadcast from Studio 8H at NBC's headquarters in New York City.  SNL has produced some of the greatest characters in comedy, as well as given countless comedians and actors their start in the entertainment industry.</p>
+			<form>
+			<div class="form-group">
+				<label for="inputCreator">Who is the SNL Creator?</label>
+				<input class="form-control"  type="text" name="creator" id="inputCreator">
+			</div>
+				
+			<div class="form-group">
+				<label for="inputCast">Name a cast member</label>
+				<input class="form-control" type="text" name="cast_member" id="inputCast">
+			</div>
+				
+			<div class="form-group">
+				<label for="inputSketch">Tell us which SNL sketch is your favorite and
+				why!</label>
+				<textarea class="form-control" name="fave_sketch" id="inputSketch"></textarea>
+			</div>
+				
+			<div class="radio">
+			<p><b>What year did SNL first air?</b></p>
+				<label><input type="radio" name="year" id="1981" 
+					value="1981">1981</label><br>
+				<label><input type="radio" name="year" id="1980"
+					value="1980">1980</label><br>
+				<label><input type="radio" name="year" id="1975"
+					value="1975">1975</label><br>
+				<label><input type="radio" name="year" id="1972"
+					value="1972">1972</label>
+			</div>
+			
+			<div class="checkbox">
+			<p><b>Which of the following people were part of the original cast?</b></p>
+				<label><input id="castMember" type="checkbox">
+				Gilda Radner</label><br>
+				<label><input id="castMember" type="checkbox">
+				Eddie Murphy</label><br>
+				<label><input id="castMember" type="checkbox">
+				Lorne Michaels</label><br>
+				<label><input id="castMember" type="checkbox">
+				Chevy Chase</label><br>
+				<label><input id="castMember" type="checkbox">
+				John Belushi</label>
+			</div>
+				
+				<p><b>Which of the following is not an SNL film?</b>
+				<select class="form-control" name="snlMovie">
+					<option name="snlmovie" id="ladiesman">The Ladies Man</option>
+					<option name="snlmovie" id="bridesmaids">Bridesmaids</option>
+					<option name="snlmovie" id="bluesbrothers">The Blues Brothers</option>
+					<option name="snlmovie" id="macgruber">MacGruber</option>
+					<option name="snlmovie" id="waynesworld">Wayne's World</option>
+					<option name="snlmovie" id="itspat">It's Pat</option>
+					<option name="snlmovie" id="sshf">Stuart Saves His Family</option>
+					<option name="snlmovie" id="superstar">Superstar</option>
+				</select>
+				</p> 
+				
+				<p>
+				<input class="btn btn-default pull-right" type="submit" value="Submit"> 
+				<input class="btn btn-default pull-right" type="reset" value="Start Over">
+				</p>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			</form>
+		</div>
+	</div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
